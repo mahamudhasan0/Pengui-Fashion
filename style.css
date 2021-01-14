@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(229, 226, 226);
+}
+.header-area{
+    background-color: #fffbf0;
+}
+
+.navbar-position{
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.banner{
+    background-color: #fffbf0;
+    
+}
+.banner-highlight{
+    color:#fabe4c;
+}
+h1{
+    color:#363958;
+}
+
+.button-highlight{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #8ca724;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    padding:15px;  
+    width: 150px;
+}
+.button-highlight img{
+    padding-right: 5px;
+}
+.jacket-card-img{
+    border-radius: 30deg;
+    background-color: #f1f1f1;
+    width: 120px;
+    height: 300px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+
+.item-section h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(46, 53, 63);
+}
+.item-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   align-items:center;
+   justify-content: center;
+   background-color: white;
+   
+}
+
+.item-img{
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.item-img img{
+  width: 250px;
+  height: 250px;
+}
+.items h5{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:#363958 ;
+    font-weight: 900;
+    font-size: 20px;
+    transform: translateX(-55px);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.items p{
+    color: rgb(68, 67, 67);
+    font-size: 15px;
+    transform: translateX(10px);
+}
+.item-btn-sec{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-btn-sec h4{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(240, 185, 84);
+}
+.items{
+  margin-top:50px;
+  margin:15px;
+  width: 320px;
+  height: 320px;
+  
+}
+.respionsive-title p{
+    font-size: 18px;
+}
+.button-modify{
+    border-radius: 5px;
+    color:white;
+    background-color: yellowgreen;
+}
+
+@media screen and (max-width:530px){
+    .responsive-icon{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    } 
+    .responsive-icon img{
+        width:100px;
+        height: 100px;
+        
+    }
+    .respionsive-title{
+        text-align: center;
+    }
+}
